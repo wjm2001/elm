@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Gateway_Server_14000" />
+        <module name="Business_Server_10002" />
+        <module name="Gateway_Server_14001" />
+        <module name="Cart_Server_10003" />
+        <module name="Eureka_Server_13000" />
+        <module name="Eureka_Server_13001" />
+        <module name="User_Server_10005" />
+        <module name="Config_Server_15001" />
+        <module name="Config_Server_15000" />
+        <module name="User_Server_10001" />
+        <module name="Orders_Server_10004" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Business_Server_10200" target="18" />
+      <module name="DeliveryAddress_Server_10500" target="18" />
+      <module name="Food_Server_10200" target="18" />
+      <module name="Orders_Server_10005" target="18" />
+      <module name="User_Server_10100" target="18" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
